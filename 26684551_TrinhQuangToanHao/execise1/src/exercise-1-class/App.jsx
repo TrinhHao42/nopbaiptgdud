@@ -3,13 +3,6 @@ import Contact from './Contact'
 
 export default class App extends Component {
   render() {
-    const chidi = {
-      firstName : "Chidi",
-      lastName : "Anagonye",
-      phone : "555-366-8987",
-      address : "St. John's University"
-    }
-
     return (
       <Contact chidi = {chidi}/>
     )

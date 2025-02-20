@@ -5,7 +5,7 @@ export default class ContactList extends Component {
     render() {
         const {ListContact} = this.props
         return (
-            <div>
+            <div style={{display:"flex"}}>
                 {
                     ListContact.map((contact) => {
                         return (
