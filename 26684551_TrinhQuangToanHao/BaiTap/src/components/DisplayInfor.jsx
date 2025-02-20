@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 export default class DisplayInfor extends Component {
     render() {
         const { listUser } = this.props;
-        console.log(listUser)
         return (
             <div>
                 {listUser.map((user) => {
