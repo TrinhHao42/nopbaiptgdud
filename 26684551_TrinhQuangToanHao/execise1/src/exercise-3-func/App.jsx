@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import data from './data'
 import ContactList from './ContactList'
-import '../app.css'
 
 export default function App() {
   const [listData, setListData] = useState(data)
