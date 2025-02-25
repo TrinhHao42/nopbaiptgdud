@@ -1,7 +1,7 @@
 import React from 'react'
 import Contact from './Contact'
 
-export default function ContactList(props) {
+const ContactList = (props) => {
     const { ListContact } = props
     return (
         <div style={{ display: "flex" }}>
@@ -15,3 +15,5 @@ export default function ContactList(props) {
         </div>
     )
 }
+
+export default ContactList

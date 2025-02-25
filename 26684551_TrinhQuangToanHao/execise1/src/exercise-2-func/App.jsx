@@ -3,8 +3,10 @@ import ContactList from '../exercise-2-func/ContactList'
 import data from '../exercise-2-func/data'
 import '../app.css'
 
-export default function App() {
+const App = () => {
   return (
     <ContactList ListContact = {data}/>
   )
 }
+
+export default App

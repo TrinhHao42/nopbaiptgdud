@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Contact(props) {
+const Contact = (props) => {
   return (
     <div style={{ border: '1px solid white', padding: '3px', marginLeft: '20px' }}>
       <h2>{props.chidi.firstName}</h2>
@@ -12,3 +12,5 @@ export default function Contact(props) {
     </div>
   )
 }
+
+export default Contact

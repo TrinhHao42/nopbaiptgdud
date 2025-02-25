@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import data from './data'
 import ContactList from './ContactList'
 
-export default function App() {
+const App = () => {
   const [listData, setListData] = useState(data)
 
   const handleDeleteData = (data_id) => {
@@ -18,3 +18,6 @@ export default function App() {
     <ContactList ListContact={listData} handleDeleteData={handleDeleteData} handleDeleteAllData={handleDeleteAllData}/>
   )
 }
+
+
+export default App

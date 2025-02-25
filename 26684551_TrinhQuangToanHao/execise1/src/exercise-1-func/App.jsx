@@ -1,7 +1,7 @@
 import React from 'react'
 import Contact from './Contact'
 
-export default function App() {
+const App = () => {
   const chidi = {
     firstName : "Trinh",
     lastName : "Hao",
@@ -15,3 +15,5 @@ export default function App() {
     </div>
   )
 }
+
+export default App
